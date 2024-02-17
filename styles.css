@@ -1,11 +1,44 @@
-body {
-  background-color: goldenrod;
+* {
+  font-family: "Poppins", sans-serif;
 }
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("https://previews.123rf.com/images/maximlacrim/maximlacrim2105/maximlacrim210500241/168954555-joker-laugh-ha-ha-vector-background.jpg");
 }
 footer {
-  position: relative;
-  bottom: 0;
+  margin-top: auto;
+}
+h1,
+h2 {
+  color: rgb(197, 41, 41);
+}
+
+h2 {
+  font-size: 20px;
+}
+.jokeGenerator_button {
+  width: 300px;
+  text-align: center;
+  border: none;
+  box-shadow: 1px 1px 10px rgb(206, 206, 206);
+  margin-top: 30px;
+  height: 50px;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+.jokeGenerator_button.jokeGenerator_button:hover {
+  cursor: pointer;
+  color: rgb(95, 91, 91);
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  padding: 0;
 }
