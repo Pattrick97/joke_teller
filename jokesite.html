@@ -7,17 +7,17 @@
     <title>Joke Teller</title>
   </head>
   <body>
-    <script>
-      document.write(jokeGenerator(jokesArray));
-    </script>
-    <input
-      id="jokeGeneration"
-      type="button"
-      value="Another Joke"
-      onclick="jokeGenerator(jokesArray);"
-    />
-    <button><a href="./index.html">Go back</a></button>
+    <div class="container1">
+      <script>
+        //document.write(jokeGenerator(jokesArray));
+        jokeGenerator(jokesArray);
+      </script>
+    </div>
+    <div class="buttons">
+      <button class="goBack" onclick="location.reload()">Another Joke</button>
 
+      <button class="goBack"><a href="./index.html">Go back</a></button>
+    </div>
     <footer>Patryk 2024 corp.</footer>
   </body>
 </html>
